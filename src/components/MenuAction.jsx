@@ -1,0 +1,38 @@
+import React from 'react';
+
+const MenuAction = () => {
+  return (
+    <div class="menudot flex items-center gap-x2px lg:gap-x-2 shrink-0">
+      <div class="grok text-gray-500 hover:text-blue-400">
+        <svg
+          viewBox="0 0 33 32"
+          aria-hidden="true"
+          class=" cursor-pointer w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"
+        >
+          <g>
+            <path
+              fill="currentColor"
+              d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="dot text-gray-500 hover:text-blue-400">
+        <svg
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          class="cursor-pointer w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
+        >
+          <g>
+            <path
+              fill="currentColor"
+              d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+  );
+}
+
+export default MenuAction;
