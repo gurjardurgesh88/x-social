@@ -1,4 +1,6 @@
-
+import aajtaklogo from "../assets/img/aajtaklogo.jpg";
+import bjplogo from "../assets/img/bjplogo.jpg";
+import president from "../assets/img/president.jpg";
 const WhotoFollow = () => {
   return (
     <div className="whotofollow border min-w-0  border-gray-700 rounded-3xl  m-3  p-6 flex gap-y-6 flex-col">
@@ -6,11 +8,7 @@ const WhotoFollow = () => {
       <div className="item flex justify-between ">
         <div className="card flex gap-x-2">
           <div className="profile ">
-            <img
-              className="w-16 rounded-full"
-              src="./src/assets/img/bjplogo.jpg"
-              alt="bjp_logo"
-            />
+            <img className="w-16 rounded-full" src={bjplogo} alt="bjp_logo" />
           </div>
           <div className="text ">
             <p className="font-bold text-base cursor-pointer">BJP</p>
@@ -24,11 +22,7 @@ const WhotoFollow = () => {
       <div className="item flex justify-between ">
         <div className="card flex gap-x-2">
           <div className="profile ">
-            <img
-              className="w-16 rounded-full"
-              src="./src/assets/img/president.jpg"
-              alt="bjp_logo"
-            />
+            <img className="w-16 rounded-full" src={president} alt="bjp_logo" />
           </div>
           <div className="text">
             <p className="font-bold text-base cursor-pointer">
@@ -48,7 +42,7 @@ const WhotoFollow = () => {
           <div className="profile ">
             <img
               className="w-16 rounded-full"
-              src="./src/assets/img/aajtaklogo.jpg"
+              src={aajtaklogo}
               alt="bjp_logo"
             />
           </div>
@@ -71,6 +65,6 @@ const WhotoFollow = () => {
       </div>
     </div>
   );
-}
+};
 
 export default WhotoFollow;
