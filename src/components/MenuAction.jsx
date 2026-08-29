@@ -1,13 +1,11 @@
-import React from 'react';
-
 const MenuAction = () => {
   return (
-    <div class="menudot flex items-center gap-x2px lg:gap-x-2 shrink-0">
-      <div class="grok text-gray-500 hover:text-blue-400">
+    <div className="menudot flex items-center gap-x2px lg:gap-x-2 shrink-0">
+      <div className="grok text-gray-500 hover:text-blue-400">
         <svg
           viewBox="0 0 33 32"
           aria-hidden="true"
-          class=" cursor-pointer w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"
+          className=" cursor-pointer w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"
         >
           <g>
             <path
@@ -17,11 +15,11 @@ const MenuAction = () => {
           </g>
         </svg>
       </div>
-      <div class="dot text-gray-500 hover:text-blue-400">
+      <div className="dot text-gray-500 hover:text-blue-400">
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"
-          class="cursor-pointer w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
+          className="cursor-pointer w-5 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
         >
           <g>
             <path
@@ -33,6 +31,6 @@ const MenuAction = () => {
       </div>
     </div>
   );
-}
+};
 
 export default MenuAction;

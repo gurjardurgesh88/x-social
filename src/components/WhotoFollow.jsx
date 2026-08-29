@@ -17,7 +17,7 @@ const WhotoFollow = () => {
             <p className=" text-sm text-gray-600 cursor-pointer">@Bjp4India</p>
           </div>
         </div>
-        <button className="bg-white w-20 p-1 h-fit mt-1.25 rounded-full text-black font-bold">
+        <button className="bg-white cursor-pointer w-20 p-1 h-fit mt-1.25 rounded-full text-black font-bold">
           Follow
         </button>
       </div>
@@ -39,7 +39,7 @@ const WhotoFollow = () => {
             </p>
           </div>
         </div>
-        <button className="bg-white w-20 p-1 h-fit mt-1.25 rounded-full text-black font-bold">
+        <button className="bg-white cursor-pointer w-20 p-1 h-fit mt-1.25 rounded-full text-black font-bold">
           Follow
         </button>
       </div>
@@ -57,7 +57,7 @@ const WhotoFollow = () => {
             <p className=" text-sm text-gray-600 cursor-pointer">@aajtak</p>
           </div>
         </div>
-        <button className="bg-white w-20 p-1 h-fit mt-1.25  rounded-full text-black font-bold">
+        <button className="bg-white cursor-pointer w-20 p-1 h-fit mt-1.25 rounded-full text-black font-bold">
           Follow
         </button>
       </div>

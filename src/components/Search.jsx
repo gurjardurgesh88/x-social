@@ -1,7 +1,6 @@
-
 const Search = () => {
   return (
-    <div className=" search hover:text-gray-200 text-gray-500 cursor-text flex gap-x-1 justify-start items-center bg-black rounded-full w-88 border hover:border-gray-400 border-gray-800  p-3 m-4">
+    <div className=" search hover:text-gray-200 text-gray-500 cursor-text flex gap-x-1 justify-start items-center bg-black rounded-full w-88 border hover:border-gray-400 border-gray-800  p-3 m-4 mt-0">
       <svg
         viewBox="0 0 24 24"
         aria-hidden="true"

@@ -1,13 +1,11 @@
-import React from 'react';
-
 const PostFunctions = () => {
   return (
-    <div class="postactions flex justify-between items-center w-full min-w-0 gap-1 py-3 lg:gap-x-3">
-      <div class="comment shrink-0 hover:text-blue-400 hover:cursor-pointer h-fit w-fit  min-w-0 text-gray-500 flex items-center gap-x-1">
+    <div className="postactions flex justify-between items-center w-full min-w-0 gap-1 py-3 lg:gap-x-3">
+      <div className="comment shrink-0 hover:text-blue-400 hover:cursor-pointer h-fit w-fit  min-w-0 text-gray-500 flex items-center gap-x-1">
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"
-          class="w-5     r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"
+          className="w-5     r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"
         >
           <g>
             <path
@@ -16,13 +14,13 @@ const PostFunctions = () => {
             ></path>
           </g>
         </svg>
-        <span class="text text-xs lg:text-sm whitespace-nowrap">968</span>
+        <span className="text text-xs lg:text-sm whitespace-nowrap">968</span>
       </div>
-      <div class="reshare shrink-0 min-w-0  text-gray-500 hover:text-green-400 hover:cursor-pointer h-fit w-fit flex items-center gap-x-1">
+      <div className="reshare shrink-0 min-w-0  text-gray-500 hover:text-green-400 hover:cursor-pointer h-fit w-fit flex items-center gap-x-1">
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"
-          class="w-5  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
+          className="w-5  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
         >
           <g>
             <path
@@ -31,13 +29,13 @@ const PostFunctions = () => {
             ></path>
           </g>
         </svg>
-        <span class="text  text-xs lg:text-sm whitespace-nowrap">6.2k</span>
+        <span className="text  text-xs lg:text-sm whitespace-nowrap">6.2k</span>
       </div>
-      <div class="like shrink-0 min-w-0 text-gray-500 hover:text-red-400 hover:cursor-pointer h-fit w-fit flex items-center gap-x-1">
+      <div className="like shrink-0 min-w-0 text-gray-500 hover:text-red-400 hover:cursor-pointer h-fit w-fit flex items-center gap-x-1">
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"
-          class="w-5   r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
+          className="w-5   r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
         >
           <g>
             <path
@@ -46,13 +44,13 @@ const PostFunctions = () => {
             ></path>
           </g>
         </svg>
-        <span class="text  text-xs lg:text-sm whitespace-nowrap">19k</span>
+        <span className="text  text-xs lg:text-sm whitespace-nowrap">19k</span>
       </div>
-      <div class="viewgraph min-w-0 shrink-0 text-gray-500  hover:text-blue-400 hover:cursor-pointer h-fit w-fit flex items-center gap-x-1">
+      <div className="viewgraph min-w-0 shrink-0 text-gray-500  hover:text-blue-400 hover:cursor-pointer h-fit w-fit flex items-center gap-x-1">
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"
-          class="w-5  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
+          className="w-5  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
         >
           <g>
             <path
@@ -61,14 +59,14 @@ const PostFunctions = () => {
             ></path>
           </g>
         </svg>
-        <span class="text  text-xs lg:text-sm whitespace-nowrap">926k</span>
+        <span className="text  text-xs lg:text-sm whitespace-nowrap">926k</span>
       </div>
-      <div class="saaveandshare  flex items-center gap-x-1 shrink-0 ">
-        <div class="bookmark text-gray-500 hover:text-blue-400  hover:cursor-pointer h-fit w-fit">
+      <div className="saaveandshare  flex items-center gap-x-1 shrink-0 ">
+        <div className="bookmark text-gray-500 hover:text-blue-400  hover:cursor-pointer h-fit w-fit">
           <svg
             viewBox="0 0 24 24"
             aria-hidden="true"
-            class="w-5   r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
+            className="w-5   r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
           >
             <g>
               <path
@@ -78,11 +76,11 @@ const PostFunctions = () => {
             </g>
           </svg>
         </div>
-        <div class="share text-gray-500 hover:text-blue-400  hover:cursor-pointer h-fit w-fit">
+        <div className="share text-gray-500 hover:text-blue-400  hover:cursor-pointer h-fit w-fit">
           <svg
             viewBox="0 0 24 24"
             aria-hidden="true"
-            class="w-5   r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
+            className="w-5   r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1xvli5t r-1hdv0qi"
           >
             <g>
               <path
@@ -95,6 +93,6 @@ const PostFunctions = () => {
       </div>
     </div>
   );
-}
+};
 
 export default PostFunctions;

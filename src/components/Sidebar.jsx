@@ -1,7 +1,5 @@
-
 const sidebar = () => {
   return (
-   
       <div className="sidebar  flex justify-start">
         <ul className="flex flex-col justify-self-start gap-y-1 ">
           <li className="flex gap-x-4  hover:cursor-pointer hover:rounded-full    hover:bg-white/10   hover:border-gray-700  p-2 w-full hover:w-fit text-xl items-center justify-start font-semibold">

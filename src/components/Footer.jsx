@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <div className="footer min-w-0">

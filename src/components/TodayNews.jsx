@@ -1,4 +1,3 @@
-
 const TodayNews = () => {
   return (
     <div className="todaynews min-w-0 border  border-gray-700 rounded-3xl  m-3 p-6">

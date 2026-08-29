@@ -26,7 +26,7 @@ const posts = [
     name: "PMO India",
     username: "@PMOIndia",
     time: "3h",
-    text: "Today we mark #PartitionRemembranceDay. We recall the courage...",
+    text: "Today we mark \n #PartitionRemembranceDay. We recall the courage of all those who were impacted by Partition. It was a moment in history that tore apart several lives... families were uprooted, loved ones were lost and immense suffering was endured.\n At the same time, ",
     showMore: true,
   },
 
@@ -85,14 +85,5 @@ const Posts = () => {
     
   );
 };
-// const Posts = () => {
-//   return (
-//     <div className="posts flex flex-col w-full min-w-0 pb-14 sm:pb-0">
-//       {posts.map((post) => (
-//         <PostUi key={post.id} {...post} />
-//       ))}
-//     </div>
-//   );
-// };
 
 export default Posts;

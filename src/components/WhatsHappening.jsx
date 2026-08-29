@@ -1,4 +1,3 @@
-
 const WhatsHappening = () => {
   return (
     <div className="whats-happening min-w-0 border  border-gray-700 rounded-3xl  m-3  p-6 flex gap-y-6 flex-col">

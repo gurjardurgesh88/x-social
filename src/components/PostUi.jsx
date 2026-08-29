@@ -13,6 +13,7 @@ const PostUi = ({
   showMore,
   video,
 }) => {
+ 
   return (
     <div className="postone p-2 lg:p-3 flex gap-x-2 lg:gap-x-3 min-w-0 w-full">
       <img
@@ -33,14 +34,29 @@ const PostUi = ({
           </div>
           <MenuAction />
         </div>
-        <div className="heading flex flex-col min-w-0 max-w-full">
-          <p>{text}</p>
+        <div className="heading  min-w-0 max-w-full ">
+          <p className="whitespace-pre-line">
+
+          {text.split(/(#[A-Za-z0-9_]+)/g).map((word, index) =>
+            word.startsWith("#") ? (
+              <span key={index} className="text-blue-500 cursor-pointer">
+                {word}
+              </span>
+            ) : (
+              word
+            ),
+          )}
+          </p>
+
           {link && (
             <a className="text-blue-500  break-all w-fit h-fit" href="#">
               {link}
             </a>
           )}
           {via && <p className="pt-2">{via}</p>}
+          {showMore && (
+            <p className="text-blue-500 cursor-pointer">Show more</p>
+          )}
         </div>
         {image && (
           <div className="imgpost pt-3">

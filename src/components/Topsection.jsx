@@ -1,4 +1,3 @@
-
 const Topsection = () => {
   return (
     <div className="top sticky top-0 z-10 bg-black/80 backdrop-blur-md">

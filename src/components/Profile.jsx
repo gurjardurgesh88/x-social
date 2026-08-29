@@ -1,10 +1,10 @@
-
+import ProfileDp from "../assets/img/dp.png";
 const Profile = () => {
   return (
     <div className="profile flex items-center  transition duration-150 hover:bg-white/10 lg:p-2 rounded-full">
       <div className="dp w-10 h-10 lg:w-10 lg:h-10 shrink-0">
         <img
-          src="./src/assets/img/dp.png"
+          src={ProfileDp}
           alt="Dp"
           className="w-full h-full object-cover rounded-full"
         />
@@ -31,6 +31,6 @@ const Profile = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Profile;
