@@ -1,16 +1,62 @@
-# React + Vite
+# X Social
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An X (Twitter) inspired social media interface built with React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://x-social-app.vercel.app/
 
-## React Compiler
+## 📖 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A frontend recreation of the X (Twitter) interface built using React.js.
 
-## Expanding the ESLint configuration
+The project uses reusable React components and dynamic post content to create a structured social media UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- X (Twitter) inspired UI
+- Dynamic posts
+- Reusable post components
+- Posts with optional images and links
+- Sidebar navigation
+- Today's News
+- What's Happening
+- Who to Follow
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
+
+## 📂 Project Structure
+
+**src/**
+- **assets/img/** - Images used in the project
+- **components/** - Reusable React components
+  - FirstSection.jsx
+  - Footer.jsx
+  - MenuAction.jsx
+  - PostFunctions.jsx
+  - Postmenu.jsx
+  - PostUi.jsx
+  - Posts.jsx
+  - Profile.jsx
+  - Search.jsx
+  - Sidebar.jsx
+  - TodayNews.jsx
+  - Topsection.jsx
+  - WhatsHappening.jsx
+  - WhotoFollow.jsx
+- **App.jsx** - Main application component
+- **index.css** - Global styles
+- **main.jsx** - React entry point
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/gurjardurgesh88/x-social.git
+cd x-social
+npm install
+npm run dev
