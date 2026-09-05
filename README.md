@@ -56,7 +56,7 @@ The project uses reusable React components and dynamic post content to create a 
 ## ⚙️ Run Locally
 
 ```bash
-git clone https://github.com/gurjardurgesh88/x-social.git
+git clone https://github.com/durgeshpateldev/x-social.git
 cd x-social
 npm install
 npm run dev
